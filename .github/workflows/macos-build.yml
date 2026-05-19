@@ -56,6 +56,11 @@ jobs:
       - name: Sync tracked Xcode version marker
         run: xcodebuild -version > last-xcode-version
 
+      - name: Kill stale Xcode agents
+        run: |
+          killall ibtoold 2>/dev/null || true
+          killall AssetCatalogSimulatorAgent 2>/dev/null || true
+
       - name: Build iTerm2
         run: |
           for attempt in 1 2 3; do
@@ -74,9 +79,10 @@ jobs:
             if grep -q "IBPlatformToolFailureException\|The tool closed the connection\|CompileAssetCatalogVariant failed" tmp/build.log; then
               echo "::warning::Attempt $attempt failed due to flaky ibtoold/actool crash (known Xcode bug)"
               if [ $attempt -lt 3 ]; then
-                echo "Retrying..."
+                echo "Retrying after cleaning DerivedData..."
                 killall ibtoold 2>/dev/null || true
                 killall AssetCatalogSimulatorAgent 2>/dev/null || true
+                rm -rf ~/Library/Developer/Xcode/DerivedData
                 sleep 5
                 continue
               fi

@@ -1,232 +1,247 @@
 /* Context menu */
-"-> Browser" = "-> Browser";
-"-> Mail" = "-> Mail";
+"-> Browser" = "-> 浏览器";
+"-> Mail" = "-> 邮件";
 "-> Google" = "-> Google";
 
 /* Toolbar Item:Bookmarks */
-"Bookmarks" = "Bookmarks";
+"Bookmarks" = "书签";
 
 /* Close window */
-"All sessions will be closed" = "All sessions will be closed";
+"All sessions will be closed" = "所有会话都将被关闭";
 
 /* Cancel */
-"Cancel" = "Cancel";
+"Cancel" = "取消";
 
 /* Context menu */
-"Clear Buffer" = "Clear Buffer";
+"Clear Buffer" = "清除缓冲区";
 
 /* Toolbar Item: Close Session */
-"Close" = "Close";
+"Close" = "关闭";
 
 /* Toolbar Item Tip: Close */
-"Close the current session" = "Close the current session";
+"Close the current session" = "关闭当前会话";
 
 /* Close window */
-"Close Window?" = "Close Window?";
-"Quit iTerm?" = "Quit iTerm?";
+"Close Window?" = "关闭窗口？";
+"Quit iTerm?" = "退出 iTerm？";
 
 /* Close Session */
-"This session will be closed."="This session will be closed.";
-"All unsaved data will be lost"="All unsaved data will be lost";
+"This session will be closed." = "此会话将被关闭。";
+"All unsaved data will be lost" = "所有未保存的数据都将丢失";
 
 /* Toolbar Item:Info */
-"Info" = "Info";
+"Info" = "信息";
 
 /* Toolbar Item Tip:Info */
-"Window/Session Info" = "Window/Session Info";
+"Window/Session Info" = "窗口/会话信息";
 
 /* Context menu */
-"Info..." = "Info...";
+"Info..." = "信息...";
 
 /* Context menu */
-"Copy" = "Copy";
+"Copy" = "拷贝";
 
 /* Context menu */
-"New Tab" = "New Tab";
+"New Tab" = "新终端";
 
 /* Context menu */
-"New Window" = "New Window";
+"New Window" = "新窗口";
 
 
 /* Removal Alert */
-"Do you really want to remove this item?" = "Do you really want to remove this item?";
+"Do you really want to remove this item?" = "你确定要移除此项吗？";
 
 /* Toolbar Item:New */
-"Default Session"="Default Session";
-"New" = "New";
-"Press Option for New Window"="Press Option for New Window";
-"Open In New Window" = "Open In New Window";
-"Open a new session"="Open a new session";
-"Execute" = "Execute";
-"Execute Command or Launch URL" = "Execute Command or Launch URL";
+"Default Session" = "默认会话";
+"New" = "新建";
+"Press Option for New Window" = "按住 Option 键可新建窗口";
+"Open In New Window" = "在新窗口中打开";
+"Open a new session" = "打开一个新会话";
+"Execute" = "执行";
+"Execute Command or Launch URL" = "执行命令或打开 URL";
 
 /* OK */
-"OK" = "OK";
+"OK" = "好";
 
 /* Toolbar Item Tip:Bookmarks */
-"Open the bookmarks" = "Open the bookmarks";
+"Open the bookmarks" = "打开书签";
 
 /* Context menu */
-"Paste" = "Paste";
+"Paste" = "粘贴";
 
 /* Context menu */
-"Save" = "Save";
+"Save" = "保存";
 
 /* Context menu */
-"Select" = "Select";
+"Select" = "选择";
 
 /* Context menu */
-"Move to new window" = "Move to new window";
+"Move to new window" = "移到新窗口";
 
 /* Anti-Idle: wrong input */
-"Please enter a valid code (0~255)" = "Please enter a valid code (0~255)";
+"Please enter a valid code (0~255)" = "请输入有效的代码（0~255）";
 
 /* wrong input */
-"Please enter a valid window size" = "Please enter a valid window size";
+"Please enter a valid window size" = "请输入有效的窗口尺寸";
 
 /* Remove */
-"Remove" = "Remove";
+"Remove" = "移除";
 
 /* Context menu */
-"Select All" = "Select All";
-"Save" = "Save";
-"Print..." = "Print...";
-"Print Selection..." = "Print Selection...";
+"Select All" = "全选";
+"Save" = "保存";
+"Print..." = "打印...";
+"Print Selection..." = "打印所选内容...";
 
 /* Removal Alert */
-"There is no undo for this operation." = "There is no undo for this operation.";
+"There is no undo for this operation." = "此操作无法撤销。";
 
 /* wrong input */
-"Wrong Input" = "Wrong Input";
+"Wrong Input" = "输入错误";
 
 /* Upgrade */
-"Upgrade Warning: New language encodings available!"="Upgrade Warning: New language encodings available!";
-"Please reset all the encoding settings in your preference and bookmarks"="Please reset all the encoding settings in your preference and bookmarks";
+"Upgrade Warning: New language encodings available!" = "升级警告：有新的语言编码可用！";
+"Please reset all the encoding settings in your preference and bookmarks" = "请在偏好设置和书签中重置所有编码设置";
 
 /* Author */
-"fabian"="fabian";
-"Ujwal S. Setlur"="Ujwal S. Setlur";
+"fabian" = "fabian";
+"Ujwal S. Setlur" = "Ujwal S. Setlur";
 
 /* About */
-"Report A Bug"="Report A Bug";
+"Report A Bug" = "报告 Bug";
 
 /* Config */
-"Configuration saved as a new entry in Bookmarks"="Configuration saved as a new entry in Bookmarks";
-"Configuration saved"="Configuration saved";
+"Configuration saved as a new entry in Bookmarks" = "配置已作为新条目保存到书签中";
+"Configuration saved" = "配置已保存";
 
 /* OS Version */
-"Minimum_OS"="iTerm requires OS X version 10.2 or higher to run. This application will now terminate.";
+"Minimum_OS" = "iTerm 需要 OS X 10.2 或更高版本才能运行。应用程序现在将退出。";
 
 /* Sorry */
-"Sorry"="Sorry";
+"Sorry" = "抱歉";
 
 /* Quit */
-"Quit"="Quit";
+"Quit" = "退出";
 
 /* PreferencePanel */
-"Display"="Display";
-"Shell"="Shell";
-"Emulation"="Emulation";
-"Color"="Color";
+"Display" = "显示";
+"Shell" = "终端";
+"Emulation" = "仿真";
+"Color" = "颜色";
 
 /* Script */
-"Script" = "Script";
-"Refresh" = "Refresh";
+"Script" = "脚本";
+"Refresh" = "刷新";
 
 /* Key Binding Profiles */
-"Global"="Global";
+"Global" = "全局";
 
 /* Display Profiles */
-"Default" = "Default";
+"Default" = "默认";
 
 /* Key Binding Actions */
-"next tab"="next tab";
-"next window"="next window";
-"previous tab"="previous tab";
-"previous window"="previous window";
-"scroll end"="scroll end";
-"scroll home"="scroll home";
-"scroll line down"="scroll line down";
-"scroll line up"="scroll line up";
-"scroll page down"="scroll page down";
-"scroll page up"="scroll page up";
-"send ^["="send ^[";
-"send hex code"="send hex code";
-"send"="send";
-"ignore"="ignore";
-"unknown action ID"="unknown action ID";
+"next tab" = "下一个标签页";
+"next window" = "下一个窗口";
+"previous tab" = "上一个标签页";
+"previous window" = "上一个窗口";
+"scroll end" = "滚动到底部";
+"scroll home" = "滚动到顶部";
+"scroll line down" = "向下滚动一行";
+"scroll line up" = "向上滚动一行";
+"scroll page down" = "向下翻页";
+"scroll page up" = "向上翻页";
+"send ^[" = "发送 ^[";
+"send hex code" = "发送十六进制代码";
+"send" = "发送";
+"ignore" = "忽略";
+"unknown action ID" = "未知操作 ID";
 
 /* Key Names */
-"cursor down"="cursor down";
-"cursor left"="cursor left";
-"cursor right"="cursor right";
-"cursor up"="cursor up";
-"del"="del";
-"delete"="delete";
-"end"="end";
-"help"="help";
-"home"="home";
-"numlock"="numlock";
-"page down"="page down";
-"page up"="page up";
-"unknown key"="unknown key";
+"cursor down" = "下方向键";
+"cursor left" = "左方向键";
+"cursor right" = "右方向键";
+"cursor up" = "上方向键";
+"del" = "Del";
+"delete" = "Delete";
+"end" = "End";
+"help" = "帮助";
+"home" = "Home";
+"numlock" = "Num Lock";
+"page down" = "Page Down";
+"page up" = "Page Up";
+"unknown key" = "未知按键";
 
 /* Save Confirmation */
-"%@'s display profile %@ and terminal profile %@ have been updated"="%@'s display profile %@ and terminal profile %@ have been updated";
-"All bookmarks associated with this profile are affected"="All bookmarks associated with this profile are affected";
+"%@'s display profile %@ and terminal profile %@ have been updated" = "%@ 的显示配置 %@ 和终端配置 %@ 已更新";
+"All bookmarks associated with this profile are affected" = "所有与此配置关联的书签都会受到影响";
 
 /* Profiles */
-"Delete Profile" = "Delete Profile";
-"Are you sure that you want to delete %@? There is no way to undo this action." = "Are you sure that you want to delete %@? There is no way to undo this action.";
-"Delete" = "Delete";
-"Cancel" = "Cancel";
-"Untitled" = "Untitled";
-"%@ copy" = "%@ copy";
+"Delete Profile" = "删除配置";
+"Are you sure that you want to delete %@? There is no way to undo this action." = "你确定要删除 %@ 吗？此操作无法撤销。";
+"Delete" = "删除";
+"Cancel" = "取消";
+"Untitled" = "未命名";
+"%@ copy" = "%@ 副本";
 
 /* Bookmarks */
-"Delete Bookmark"="Delete Bookmark";
+"Delete Bookmark" = "删除书签";
 
 /* Warning */
-"Warning!" = "Warning!";
+"Warning!" = "警告！";
 
 /* Keyboard Input */
-"Keyboard input will be sent to all sessions in this terminal." = "Keyboard input will be sent to all sessions in this terminal.";
+"Keyboard input will be sent to all sessions in this terminal." = "键盘输入将发送到此终端中的所有会话。";
 
 /* Growl Alerts */
-"Alert" = "Alert";
-"Session %@ #%d: %@" = "Session %@ #%d: %@";
-"Bell" = "Bell";
-"Session %@ #%d just rang a bell!" = "Session %@ #%d just rang a bell!";
-"Broken Pipe" = "Broken Pipe";
-"Session %@ #%d just terminated." = "Session %@ #%d just terminated.";
-"Idle" = "Idle";
-"Session %@ #%d becomes idle." = "Session %@ #%d becomes idle.";
-"New Output" = "New Output";
-"New Output was received in %@ #%d." = "New Output was received in %@ #%d.";
+"Alert" = "提醒";
+"Session %@ #%d: %@" = "会话 %@ #%d：%@";
+"Bell" = "响铃";
+"Session %@ #%d just rang a bell!" = "会话 %@ #%d 刚刚响铃！";
+"Broken Pipe" = "管道已断开";
+"Session %@ #%d just terminated." = "会话 %@ #%d 刚刚终止。";
+"Idle" = "空闲";
+"Session %@ #%d becomes idle." = "会话 %@ #%d 进入空闲。";
+"New Output" = "新输出";
+"New Output was received in %@ #%d." = "在 %@ #%d 中收到了新输出。";
 
 /* Info */
-"Update %@" = "Update %@";
+"Update %@" = "更新 %@";
 
 /* Tab Tooltips */
-"Name: %@\nCommand: %@\nTerminal Profile: %@\nDisplay Profile: %@\nKeyboard Profile: %@" = "Name: %@\nCommand: %@\nTerminal Profile: %@\nDisplay Profile: %@\nKeyboard Profile: %@";
+"Name: %@\nCommand: %@\nTerminal Profile: %@\nDisplay Profile: %@\nKeyboard Profile: %@" = "名称：%@\n命令：%@\n终端配置：%@\n显示配置：%@\n键盘配置：%@";
 
 /* Profiles */
-"Keyboard Profiles" = "Keyboard Profiles";
-"Display Profiles" = "Display Profiles";
-"Terminal Profiles" = "Terminal Profiles";
-"eg. [OC for ESC [OC." = "eg. [OC for ESC [OC.";
-"eg. 7F for backward delete." = "eg. 7F for backward delete.";
-"use \n for new-line, etc" = "use \n for new-line, etc";
+"Keyboard Profiles" = "键盘配置";
+"Display Profiles" = "显示配置";
+"Terminal Profiles" = "终端配置";
+"eg. [OC for ESC [OC." = "例如：[OC 表示 ESC [OC。";
+"eg. 7F for backward delete." = "例如：7F 表示向后删除。";
+"use \n for new-line, etc" = "可使用 \\n 表示换行等";
 
 /* Error */
-"Out of memory" = "Out of memory";
-"New session cannot be created. Try smaller buffer sizes." = "New session cannot be created. Try smaller buffer sizes.";
+"Out of memory" = "内存不足";
+"New session cannot be created. Try smaller buffer sizes." = "无法创建新会话。请尝试更小的缓冲区大小。";
 
 /* Security Warnings */
-"Bad User Shell" = "Bad User Shell";
-"The shell for this account is not a valid shell as defined in /etc/shells. Contact your system administrator." = "The shell for this account is not matched by a valid shell as defined in /etc/shells. Contact your system administrator.";
+"Bad User Shell" = "无效的用户 Shell";
+"The shell for this account is not a valid shell as defined in /etc/shells. Contact your system administrator." = "此账户的 shell 不在 /etc/shells 定义的有效 shell 列表中。请联系系统管理员。";
 
 /* Fork Error*/
-"Unable to Fork!"="Unable to Fork!";
-"iTerm cannot launch the program for this session."="iTerm cannot launch the program for this session.";
-"Close Session"="Close Session";
+"Unable to Fork!" = "无法创建进程！";
+"iTerm cannot launch the program for this session." = "iTerm 无法为此会话启动该程序。";
+"Close Session" = "关闭会话";
+
+"Del→" = "向前删除";
+
+"←Delete" = "退格";
+
+"End" = "End";
+
+"Help" = "帮助";
+
+"Home" = "Home";
+
+/* Workgroup session mode */
+"Regular" = "常规";
+"Code Review" = "代码审查";
+"Diff" = "差异";

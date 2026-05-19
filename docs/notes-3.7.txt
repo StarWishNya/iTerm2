@@ -942,3 +942,6 @@ Bug Fixes:
   picks up the new mode automatically;
   flip it back to Regular in Settings
   if you prefer the old behavior.
+- Refresh Simplified Chinese text in
+  menus, profile dialogs, and
+  workgroup mode labels.

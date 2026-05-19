@@ -1,8 +1,8 @@
-﻿/* NSComboBox (0) : <title: > (oid:246) */
+/* NSComboBox (0) : <title: > (oid:246) */
 " " = " ";
 
 /* NSButton (When idle, sends) : <title: When idle, sends> (oid:273) */
-" When idle, sends" = " When idle, sends";
+" When idle, sends" = " 闲置时送出";
 
 /* NSTextField (%) : <title:%> (oid:147) */
 "%" = "%";
@@ -41,26 +41,26 @@
 "A" = "A";
 
 /* NSTextField (ANSI Colors:) : <title:ANSI Colors:> (oid:143) */
-"ANSI Colors:" = "ANSI Colors:";
+"ANSI Colors:" = "ANSI颜色：";
 
 /* NSTextField (ASCII code:) : <title:ASCII code:> (oid:274) */
-"ASCII code:" = "ASCII code:";
+"ASCII code:" = "ASCII编码：";
 
 /* NSButton (Add) : <title:Add> (oid:369) */
-"Add" = "Add";
+"Add" = "添加";
 
 /* NSComboBox (0) : <title:B> (oid:246) */
 "B" = "B";
 
 /* NSTextField (Background) : <title:Background
 > (oid:130) */
-"Background\n" = "Background\n";
+"Background\n" = "背景色\n";
 
 /* NSTextField (Bold) : <title:Bold> (oid:198) */
-"Bold" = "Bold";
+"Bold" = "粗体";
 
 /* NSPanel (Bookmarks) : <title:Bookmarks> (oid:18) */
-"Bookmarks" = "Bookmarks";
+"Bookmarks" = "书签";
 
 /* NSBox : <title:Box> (oid:175) */
 "Box" = "Box";
@@ -69,61 +69,61 @@
 "C" = "C";
 
 /* NSButton (Cancel) : <title:Cancel> (oid:148) */
-"Cancel" = "Cancel";
+"Cancel" = "取消";
 
 /* NSButton (Close the session when it ends) : <title:Close the session when it ends> (oid:126) */
-"Close the session when it ends" = "Close the session when it ends";
+"Close the session when it ends" = "终端结束时自动关闭窗口";
 
 /* NSTextField (Col) : <title:Col> (oid:132) */
-"Col" = "Col";
+"Col" = "列数";
 
 /* NSTabViewItem : <title:Color> (oid:195) */
-"Color" = "Color";
+"Color" = "颜色";
 
 /* NSTextField (Color scheme:) : <title:Color scheme:> (oid:183) */
-"Color scheme:" = "Color scheme:";
+"Color scheme:" = "色系：";
 
 /* NSTextField (Command) : <title:Command> (oid:248) */
-"Command" = "Command";
+"Command" = "命令";
 
 /* NSMenuItem : <title:Custom> (oid:152) */
-"Custom" = "Custom";
+"Custom" = "自定";
 
 /* NSComboBox (0) : <title:D> (oid:246) */
 "D" = "D";
 
 /* NSButton (Delete key sends backspace) : <title:Delete key sends backspace> (oid:265) */
-"Delete key sends backspace" = "Delete key sends backspace";
+"Delete key sends backspace" = "Delete键送出Backspace";
 
 /* NSTabViewItem : <title:Display> (oid:187) */
-"Display" = "Display";
+"Display" = "显示";
 
 /* NSButton (Duplicate) : <title:Duplicate> (oid:348) */
-"Duplicate" = "Duplicate";
+"Duplicate" = "复制";
 
 /* NSComboBox (0) : <title:E> (oid:246) */
 "E" = "E";
 
 /* NSButton (Edit) : <title:Edit> (oid:37) */
-"Edit" = "Edit";
+"Edit" = "编辑";
 
 /* NSTextField (Encoding) : <title:Encoding
 > (oid:254) */
-"Encoding\n" = "Encoding\n";
+"Encoding\n" = "编码\n";
 
 /* NSComboBox (0) : <title:F> (oid:246) */
 "F" = "F";
 
 /* NSButton (Font) : <title:Font> (oid:123) */
-"Font" = "Font";
+"Font" = "字体";
 
 /* NSTextField (Font Name) : <title:Font Name
 > (oid:207) */
-"Font Name\n" = "Font Name\n";
+"Font Name\n" = "字体名\n";
 
 /* NSTextField (Foreground) : <title:Foreground
 > (oid:204) */
-"Foreground\n" = "Foreground\n";
+"Foreground\n" = "前景色\n";
 
 /* NSComboBox (0) : <title:G> (oid:246) */
 "G" = "G";
@@ -132,7 +132,7 @@
 "H" = "H";
 
 /* NSTextField (Highlight) : <title:Highlight> (oid:129) */
-"Highlight" = "Highlight";
+"Highlight" = "高亮";
 
 /* NSComboBox (0) : <title:I> (oid:246) */
 "I" = "I";
@@ -162,31 +162,31 @@
 "N" = "N";
 
 /* NSTableColumn : <title:Name> (oid:26) */
-"Name" = "Name";
+"Name" = "名字";
 
 /* NSTextField (Name:) : <title:Name:> (oid:243) */
-"Name:" = "Name:";
+"Name:" = "名字：";
 
 /* NSButton (New Tab) : <title:New Tab> (oid:11) */
-"New Tab" = "New Tab";
+"New Tab" = "新终端";
 
 /* NSButton (New Window) : <title:New Window> (oid:350) */
-"New Window" = "New Window";
+"New Window" = "新窗口";
 
 /* NSButton (Non ASCII Font) : <title:Non ASCII Font> (oid:169) */
-"Non ASCII Font" = "Non ASCII Font";
+"Non ASCII Font" = "非ASCII字体";
 
 /* NSTextField (Normal) : <title:Normal> (oid:119) */
-"Normal" = "Normal";
+"Normal" = "正常";
 
 /* NSComboBox (0) : <title:O> (oid:246) */
 "O" = "O";
 
 /* NSButton (OK) : <title:OK> (oid:140) */
-"OK" = "OK";
+"OK" = "好";
 
 /* NSMenu : <title:OtherViews> (oid:264) */
-"OtherViews" = "OtherViews";
+"OtherViews" = "其他窗口";
 
 /* NSComboBox (0) : <title:P> (oid:246) */
 "P" = "P";
@@ -198,47 +198,44 @@
 "R" = "R";
 
 /* NSButton (Remove) : <title:Remove> (oid:347) */
-"Remove" = "Remove";
+"Remove" = "删除";
 
 /* NSTextField (Row) : <title:Row> (oid:159) */
-"Row" = "Row";
+"Row" = "行数";
 
 /* NSComboBox (0) : <title:S> (oid:246) */
 "S" = "S";
 
 /* NSTextField (Selection) : <title:Selection> (oid:138) */
-"Selection" = "Selection";
+"Selection" = "选中";
 
 /* NSBox : <title:Session> (oid:360) */
-"Session" = "Session";
+"Session" = "终端";
 
 /* NSPanel (Session Settings) : <title:Session Settings> (oid:122) */
-"Session Settings" = "Session Settings";
+"Session Settings" = "会话设置";
 
 /* NSTabViewItem : <title:Shell> (oid:166) */
-"Shell" = "Shell";
+"Shell" = "终端";
 
 /* NSTableColumn : <title:Shortcut> (oid:60) */
-"Shortcut" = "Shortcut";
+"Shortcut" = "快捷键";
 
 /* NSTextField (Shortcut key:                          ^⌥) : <title:Shortcut key:                          ^⌥> (oid:245) */
-"Shortcut key:                          ^⌥" = "Shortcut key:                          ^⌥";
+"Shortcut key:                          ^⌥" = "快捷键：                          ^⌥";
 
 /* NSComboBox (0) : <title:T> (oid:246) */
 "T" = "T";
 
 /* NSTextField (Terminal) : <title:Terminal> (oid:251) */
-"Terminal" = "Terminal";
-
-/* NSTextField (Answerback String) : <title:Answerback String> */
-"Answerback String" = "Answerback String";
+"Terminal" = "终端";
 
 /* NSTextField (Transparency) : <title:Transparency
 > (oid:172) */
-"Transparency\n" = "Transparency\n";
+"Transparency\n" = "透明度\n";
 
 /* NSButton (Treat Non-ASCII characters as double width) : <title:Treat Non-ASCII characters as double width> (oid:266) */
-"Treat Non-ASCII characters as double width" = "Treat Non-ASCII characters as double width";
+"Treat Non-ASCII characters as double width" = "非ASCII字符作双倍宽度";
 
 /* NSComboBox (0) : <title:U> (oid:246) */
 "U" = "U";
@@ -250,7 +247,7 @@
 "W" = "W";
 
 /* NSTextField (Working Dir) : <title:Working Dir> (oid:250) */
-"Working Dir" = "Working Dir";
+"Working Dir" = "工作目录";
 
 /* NSComboBox (0) : <title:X> (oid:246) */
 "X" = "X";
@@ -279,3 +276,6 @@
 /* NSMenuItem : <title:xterm-color> (oid:261) */
 "xterm-color" = "xterm-color";
 
+
+/* NSTextField (Answerback String) : <title:Answerback String> */
+"Answerback String" = "应答字符串";

@@ -1,0 +1,69 @@
+name: macOS Build
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: macos-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Select Xcode 26.2
+        run: sudo xcode-select -s /Applications/Xcode_26.2.app/Contents/Developer
+
+      - name: Show runner details
+        run: |
+          uname -a
+          uname -m
+          xcodebuild -version
+
+      - name: Require Apple Silicon runner
+        run: test "$(uname -m)" = arm64
+      - name: Sync tracked Xcode version marker
+        run: xcodebuild -version > last-xcode-version
+
+      - name: Validate localized strings
+        run: |
+          set -euo pipefail
+          for file in Interfaces/*.strings; do
+            echo "Checking $file"
+            plutil -lint "$file"
+          done
+
+      - name: Build binary dependencies if needed
+        run: make BUILD_DIR="$RUNNER_TEMP/iterm-build" DepsIfNeeded
+
+      - name: Build iTerm2
+        run: BUILD_DIR="$RUNNER_TEMP/iterm-build" tools/build.sh Development
+
+      - name: Upload app artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iterm2-development-app
+          path: ${{ runner.temp }}/iterm-build/Development/iTerm2.app
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload build log
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: build-log
+          path: tmp/build.log
+          if-no-files-found: ignore
+          retention-days: 7

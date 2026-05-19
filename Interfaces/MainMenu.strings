@@ -2,173 +2,176 @@
 " " = " ";
 
 /* NSPanel (About iTerm) : <title:About iTerm> (oid:498) */
-"About iTerm" = "About iTerm";
+"About iTerm" = "关于iTerm";
 
 /* NSMenuItem : <title:Bigger Font> (oid:804) */
-"Bigger Font" = "Bigger Font";
+"Bigger Font" = "放大字体";
 
 /* NSMenuItem : <title:Bring All To Front> (oid:5) */
-"Bring All To Front" = "Bring All To Front";
+"Bring All To Front" = "全部调到前面";
 
 /* NSMenuItem : <title:Clear Buffer> (oid:217) */
-"Clear Buffer" = "Clear Buffer";
+"Clear Buffer" = "清除缓冲区";
 
 /* NSMenuItem : <title:Clear Scrollback Buffer> (oid:755) */
-"Clear Scrollback Buffer" = "Clear Scrollback Buffer";
+"Clear Scrollback Buffer" = "清除历史缓冲区";
 
 /* NSMenuItem : <title:Close Tab> (oid:635) */
-"Close Tab" = "Close Tab";
+"Close Tab" = "关闭终端";
 
 /* NSMenuItem : <title:Close Window> (oid:598) */
-"Close Window" = "Close Window";
+"Close Window" = "关闭窗口";
 
 /* NSMenuItem : <title:Configure> (oid:594) */
-"Configure" = "Configure";
+"Configure" = "调整窗口";
 
 /* NSMenuItem : <title:Copy> (oid:157) */
-"Copy" = "Copy";
+"Copy" = "拷贝";
 
 /* NSMenu : <title:Edit> (oid:169) */
-"Edit" = "Edit";
+"Edit" = "编辑";
 
 /* NSMenu : <title:Find> (oid:760) */
-"Find" = "Find";
+"Find" = "查找";
 
 /* NSMenuItem : <title:Find Next> (oid:761) */
-"Find Next" = "Find Next";
+"Find Next" = "查找下一个";
 
 /* NSMenuItem : <title:Find Previous> (oid:763) */
-"Find Previous" = "Find Previous";
+"Find Previous" = "查找上一个";
 
 /* NSMenuItem : <title:Find...> (oid:762) */
-"Find..." = "Find...";
+"Find..." = "查找...";
 
 /* NSTextField (FreeMono font is under GPL from http://savannah.nongnu.org/projects/freefont) : <title:FreeMono font is under GPL from http://savannah.nongnu.org/projects/freefont> (oid:757) */
-"FreeMono font is under GPL from http://savannah.nongnu.org/projects/freefont" = "FreeMono font is under GPL from http://savannah.nongnu.org/projects/freefont";
+"FreeMono font is under GPL from http://savannah.nongnu.org/projects/freefont" = "FreeMono字体使用GPL执照：http://savannah.nongnu.org/projects/freefont";
 
 /* NSMenu : <title:Help> (oid:106) */
-"Help" = "Help";
+"Help" = "帮助";
 
 /* NSMenuItem : <title:Hide Others> (oid:145) */
-"Hide Others" = "Hide Others";
+"Hide Others" = "隐藏其它";
 
 /* NSMenuItem : <title:Hide iTerm> (oid:134) */
-"Hide iTerm" = "Hide iTerm";
+"Hide iTerm" = "隐藏iTerm";
 
 /* NSTextField (JTerminal Parts Copyright by Kiichi Kusama, kuma@icon.rim.or.jp) : <title:JTerminal Parts Copyright by Kiichi Kusama, kuma@icon.rim.or.jp> (oid:634) */
-"JTerminal Parts Copyright by Kiichi Kusama, kuma@icon.rim.or.jp" = "JTerminal Parts Copyright by Kiichi Kusama, kuma@icon.rim.or.jp";
+"JTerminal Parts Copyright by Kiichi Kusama, kuma@icon.rim.or.jp" = "JTerminal部分版权为Kiichi Kusama所有, kuma@icon.rim.or.jp";
 
 /* NSMenuItem : <title:Jump to Selection> (oid:764) */
-"Jump to Selection" = "Jump to Selection";
+"Jump to Selection" = "跳到选中处";
 
 /* NSMenu : <title:Log> (oid:228) */
-"Log" = "Log";
+"Log" = "记录";
 
 /* NSMenu : <title:MainMenu> (oid:29) */
-"MainMenu" = "MainMenu";
+"MainMenu" = "主菜单";
 
 /* NSMenuItem : <title:Minimize Window> (oid:23) */
-"Minimize Window" = "Minimize Window";
+"Minimize Window" = "最小化窗口";
 
 /* NSMenuItem : <title:New Tab> (oid:600) */
-"New Tab" = "New Tab";
+"New Tab" = "新终端";
 
 /* NSMenuItem : <title:New Window> (oid:581) */
-"New Window" = "New Window";
+"New Window" = "新窗口";
 
 /* NSMenuItem : <title:Next Tab> (oid:619) */
-"Next Tab" = "Next Tab";
+"Next Tab" = "下一个终端";
 
 /* NSMenuItem : <title:Next Window> (oid:783) */
-"Next Window" = "Next Window";
+"Next Window" = "下一个窗口";
 
 /* NSButton (OK) : <title:OK> (oid:506) */
-"OK" = "OK";
+"OK" = "好";
 
 /* NSMenuItem : <title:Page Setup...> (oid:685) */
-"Page Setup..." = "Page Setup...";
+"Page Setup..." = "页面设置...";
 
 /* NSMenuItem : <title:Paste> (oid:213) */
-"Paste" = "Paste";
+"Paste" = "粘贴";
 
 /* NSMenuItem : <title:Paste Selection> (oid:778) */
-"Paste Selection" = "Paste Selection";
+"Paste Selection" = "粘贴选中部分";
 
 /* NSMenuItem : <title:Preferences...> (oid:129) */
-"Preferences..." = "Settings...";
+"Preferences..." = "预置...";
 
 /* NSMenuItem : <title:Previous Tab> (oid:615) */
-"Previous Tab" = "Previous Tab";
+"Previous Tab" = "前一个终端";
 
 /* NSMenuItem : <title:Previous Window> (oid:782) */
-"Previous Window" = "Previous Window";
+"Previous Window" = "前一个窗口";
+
+/* NSMenuItem : <title:Print Selection...> (oid:771) */
+"Print Selection..." = "打印选中部分...";
 
 /* NSMenuItem : <title:Print...> (oid:687) */
-"Print..." = "Print...";
+"Print..." = "打印...";
 
 /* NSMenuItem : <title:Quit iTerm> (oid:136) */
-"Quit iTerm" = "Quit iTerm";
+"Quit iTerm" = "退出iTerm";
 
 /* NSMenuItem : <title:Save Display Profile> (oid:818) */
-"Save Display Profile" = "Save Display Profile";
+"Save Display Profile" = "保存显示属性";
 
 /* NSMenuItem : <title:Save Terminal Profile> (oid:819) */
-"Save Terminal Profile" = "Save Terminal Profile";
+"Save Terminal Profile" = "保存终端属性";
 
 /* NSMenuItem : <title:Save Text As...> (oid:692) */
-"Save Text As..." = "Save Text As...";
+"Save Text As..." = "保存文本...";
 
 /* NSMenuItem : <title:Select All> (oid:172) */
-"Select All" = "Select All";
+"Select All" = "全选";
 
 /* NSMenu : <title:Select Tab> (oid:775) */
-"Select Tab" = "Select Tab";
+"Select Tab" = "选择终端";
 
 /* NSMenuItem : <title:Send Input to all Tabs> (oid:812) */
-"Send Input to all Tabs" = "Send Input to all Tabs";
+"Send Input to all Tabs" = "输入到窗口内所有终端";
 
 /* NSMenuItem : <title:Services> (oid:131) */
-"Services" = "Services";
+"Services" = "服务";
 
 /* NSMenuItem : <title:Shell> (oid:83) */
-"Shell" = "Shell";
+"Shell" = "终端";
 
 /* NSMenuItem : <title:Show All> (oid:150) */
-"Show All" = "Show All";
+"Show All" = "显示全部";
 
 /* NSMenuItem : <title:Smaller Font> (oid:805) */
-"Smaller Font" = "Smaller Font";
+"Smaller Font" = "缩小字体";
 
 /* NSMenuItem : <title:Start> (oid:229) */
-"Start" = "Start";
+"Start" = "开始";
 
 /* NSMenuItem : <title:Stop> (oid:230) */
-"Stop" = "Stop";
+"Stop" = "停止";
 
 /* NSTextField (This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.) : <title:This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 > (oid:633) */
 "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-" = "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-";
+" = "这一程序是自由软件，你可以遵照自由软件基金会出版的GNU通用公共许可证条款来修改和重新发布这一程序。或者用许可证的第二版，或者（根据你的选择）用任何更新的版本。发布这一程序的目的是希望它有用，但没有任何担保。甚至没有适合特定目的的隐含的担保。更详细的情况请参阅GNU通用公共许可证。\n
+你应该已经和程序一起收到一份GNU通用公共许可证的副本。如果还没有，写信给：\n    The Free Software Foundation, Inc.,  675  Mass Ave,  Cambridge,\n    MA02139,  USA";
 
 /* NSMenuItem : <title:Toggle Toolbar> (oid:807) */
-"Toggle Toolbar" = "Toggle Toolbar";
+"Toggle Toolbar" = "开关工具条";
 
 /* NSMenu : <title:Tools> (oid:592) */
-"Tools" = "Tools";
+"Tools" = "工具";
 
 /* NSMenuItem : <title:Use Selection for Find> (oid:758) */
-"Use Selection for Find" = "Use Selection for Find";
+"Use Selection for Find" = "查找选中文字";
 
 /* NSMenu : <title:View> (oid:803) */
-"View" = "View";
+"View" = "显示";
 
 /* NSMenu : <title:Window> (oid:24) */
-"Window" = "Window";
+"Window" = "窗口";
 
 /* NSTextField (iTerm) : <title:iTerm> (oid:510) */
 "iTerm" = "iTerm";
 
 /* NSMenuItem : <title:iTerm Help> (oid:111) */
-"iTerm Help" = "iTerm Help";
+"iTerm Help" = "iTerm帮助";
 

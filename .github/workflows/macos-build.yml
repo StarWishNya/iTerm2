@@ -57,8 +57,10 @@ jobs:
       - name: Work around actool .icon crash
         run: |
           # Xcode 26's actool crashes when processing .icon files on CI runners.
-          # Remove them so actool only processes the .xcassets (which work fine).
+          # Remove the files and strip their references from the project so
+          # xcodebuild won't attempt to compile them.
           rm -rf images/AppIcon/*.icon
+          sed -i '' '/\.icon/d' iTerm2.xcodeproj/project.pbxproj
 
       - name: Build iTerm2
         run: BUILD_DIR="$RUNNER_TEMP/iterm-build" tools/build.sh Development

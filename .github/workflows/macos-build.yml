@@ -56,8 +56,8 @@ jobs:
 
       - name: Build iTerm2
         run: |
-          for attempt in 1 2 3; do
-            echo "::group::Build attempt $attempt of 3"
+          for attempt in 1 2 3 4 5; do
+            echo "::group::Build attempt $attempt of 5"
             set +e
             BUILD_DIR="$RUNNER_TEMP/iterm-build" tools/build.sh Development
             exit_code=$?
@@ -71,12 +71,13 @@ jobs:
 
             if grep -q "IBPlatformToolFailureException\|The tool closed the connection\|CompileAssetCatalogVariant failed" tmp/build.log; then
               echo "::warning::Attempt $attempt failed due to flaky ibtoold/actool crash (known Xcode bug)"
-              if [ $attempt -lt 3 ]; then
+              if [ $attempt -lt 5 ]; then
                 echo "Retrying after cleaning DerivedData..."
                 killall ibtoold 2>/dev/null || true
                 killall AssetCatalogSimulatorAgent 2>/dev/null || true
+                killall AssetCatalogAgent 2>/dev/null || true
                 rm -rf ~/Library/Developer/Xcode/DerivedData
-                sleep 5
+                sleep 10
                 continue
               fi
             fi

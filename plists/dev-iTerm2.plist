@@ -30,6 +30,11 @@
         <string>GPL v2</string>
         <key>CFBundleDevelopmentRegion</key>
         <string>English</string>
+        <key>CFBundleLocalizations</key>
+        <array>
+                <string>en</string>
+                <string>zh_CN</string>
+        </array>
         <key>CFBundleDocumentTypes</key>
         <array>
                 <dict>

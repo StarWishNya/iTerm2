@@ -37,7 +37,7 @@ jobs:
       - name: Validate localized strings
         run: |
           set -euo pipefail
-          for file in Interfaces/*.strings; do
+          for file in zh_CN.lproj/*.strings; do
             echo "Checking $file"
             plutil -lint "$file"
           done

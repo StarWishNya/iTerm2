@@ -34,14 +34,6 @@ jobs:
       - name: Require Apple Silicon runner
         run: test "$(uname -m)" = arm64
 
-      - name: Cache built dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ThirdParty
-            last-xcode-version
-          key: deps-${{ runner.arch }}-xcode26.3-${{ hashFiles('.gitmodules') }}
-
       - name: Validate localized strings
         run: |
           set -euo pipefail
@@ -60,6 +52,7 @@ jobs:
         run: |
           killall ibtoold 2>/dev/null || true
           killall AssetCatalogSimulatorAgent 2>/dev/null || true
+          killall AssetCatalogAgent 2>/dev/null || true
 
       - name: Build iTerm2
         run: |

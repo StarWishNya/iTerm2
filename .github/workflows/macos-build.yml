@@ -92,12 +92,25 @@ jobs:
             exit $exit_code
           done
 
-      - name: Upload app artifact
+      - name: Package as DMG
+        run: |
+          APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"
+          DMG_DIR="$RUNNER_TEMP/dmg-staging"
+          DMG_PATH="$RUNNER_TEMP/iTerm2-Development.dmg"
+          mkdir -p "$DMG_DIR"
+          cp -R "$APP_PATH" "$DMG_DIR/"
+          ln -s /Applications "$DMG_DIR/Applications"
+          hdiutil create -volname "iTerm2" \
+            -srcfolder "$DMG_DIR" \
+            -ov -format UDZO \
+            "$DMG_PATH"
+
+      - name: Upload DMG artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: iterm2-development-app
-          path: ${{ runner.temp }}/iterm-build/Development/iTerm2.app
+          name: iTerm2-Development.dmg
+          path: ${{ runner.temp }}/iTerm2-Development.dmg
           if-no-files-found: error
           retention-days: 7
 

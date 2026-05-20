@@ -65,6 +65,27 @@ jobs:
       - name: Build iTerm2
         run: BUILD_DIR="$RUNNER_TEMP/iterm-build" tools/build.sh Development
 
+      - name: Inject app icon
+        run: |
+          APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"
+          ICONSET="$RUNNER_TEMP/AppIcon.iconset"
+          mkdir -p "$ICONSET"
+          # Generate all required icon sizes from the 512x512 source
+          sips -z 16 16     images/AppIcon.png --out "$ICONSET/icon_16x16.png"
+          sips -z 32 32     images/AppIcon.png --out "$ICONSET/icon_16x16@2x.png"
+          sips -z 32 32     images/AppIcon.png --out "$ICONSET/icon_32x32.png"
+          sips -z 64 64     images/AppIcon.png --out "$ICONSET/icon_32x32@2x.png"
+          sips -z 128 128   images/AppIcon.png --out "$ICONSET/icon_128x128.png"
+          sips -z 256 256   images/AppIcon.png --out "$ICONSET/icon_128x128@2x.png"
+          sips -z 256 256   images/AppIcon.png --out "$ICONSET/icon_256x256.png"
+          sips -z 512 512   images/AppIcon.png --out "$ICONSET/icon_256x256@2x.png"
+          sips -z 512 512   images/AppIcon.png --out "$ICONSET/icon_512x512.png"
+          cp              images/AppIcon.png    "$ICONSET/icon_512x512@2x.png"
+          iconutil -c icns "$ICONSET" -o "$APP_PATH/Contents/Resources/AppIcon.icns"
+          # Update Info.plist to reference the icns file
+          /usr/libexec/PlistBuddy -c "Set :CFBundleIconFile AppIcon" \
+            "$APP_PATH/Contents/Info.plist"
+
       - name: Package as DMG
         run: |
           APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"

@@ -86,6 +86,20 @@ jobs:
           /usr/libexec/PlistBuddy -c "Set :CFBundleIconFile AppIcon" \
             "$APP_PATH/Contents/Info.plist"
 
+      - name: Inject Chinese localization
+        run: |
+          APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"
+          LPROJ="$APP_PATH/Contents/Resources/zh_CN.lproj"
+          mkdir -p "$LPROJ"
+          cp zh_CN.lproj/*.strings "$LPROJ/"
+          # Declare zh_CN in the app's supported localizations
+          /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations array" \
+            "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations:0 string en" \
+            "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations:1 string zh_CN" \
+            "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
+
       - name: Package as DMG
         run: |
           APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"

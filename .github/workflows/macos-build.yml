@@ -89,15 +89,21 @@ jobs:
       - name: Inject Chinese localization
         run: |
           APP_PATH="$RUNNER_TEMP/iterm-build/Development/iTerm2.app"
-          LPROJ="$APP_PATH/Contents/Resources/zh_CN.lproj"
-          mkdir -p "$LPROJ"
-          cp zh_CN.lproj/*.strings "$LPROJ/"
-          # Declare zh_CN in the app's supported localizations
+          # Install both zh_CN and zh-Hans variants so macOS finds them
+          # regardless of which locale identifier it resolves to
+          for lang in zh_CN zh-Hans; do
+            LPROJ="$APP_PATH/Contents/Resources/${lang}.lproj"
+            mkdir -p "$LPROJ"
+            cp zh_CN.lproj/*.strings "$LPROJ/"
+          done
+          # Declare supported localizations in Info.plist
           /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations array" \
             "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
           /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations:0 string en" \
             "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
           /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations:1 string zh_CN" \
+            "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Add :CFBundleLocalizations:2 string zh-Hans" \
             "$APP_PATH/Contents/Info.plist" 2>/dev/null || true
 
       - name: Package as DMG

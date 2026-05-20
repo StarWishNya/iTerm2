@@ -3454,6 +3454,7 @@
 		A6B14FF22F985268006C7417 /* iTermPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B14FF02F985268006C7417 /* iTermPresentationController.h */; };
 		A6B14FF32F985268006C7417 /* iTermPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B14FF12F985268006C7417 /* iTermPresentationController.m */; };
 		A6B152DD29255ED600628436 /* iTermLocaleGuesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B152DC29255ED500628436 /* iTermLocaleGuesser.swift */; };
+		A6B152E12F2B8A0100628436 /* iTermLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B152E02F2B8A0000628436 /* iTermLocalizationManager.swift */; };
 		A6B3A7351AC74E02008E8D4E /* FindCursorCell4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3A7311AC74E02008E8D4E /* FindCursorCell4.png */; };
 		A6B3A7361AC74E02008E8D4E /* FindCursorCell4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3A7311AC74E02008E8D4E /* FindCursorCell4.png */; };
 		A6B3A7371AC74E02008E8D4E /* FindCursorCell4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3A7311AC74E02008E8D4E /* FindCursorCell4.png */; };
@@ -8448,6 +8449,7 @@
 		A6B14FF02F985268006C7417 /* iTermPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTermPresentationController.h; sourceTree = "<group>"; };
 		A6B14FF12F985268006C7417 /* iTermPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTermPresentationController.m; sourceTree = "<group>"; };
 		A6B152DC29255ED500628436 /* iTermLocaleGuesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTermLocaleGuesser.swift; sourceTree = "<group>"; };
+		A6B152E02F2B8A0000628436 /* iTermLocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTermLocalizationManager.swift; sourceTree = "<group>"; };
 		A6B1C69D2DC15898008AD3CA /* ModernTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = ModernTests.xctestplan; path = ModernTests/ModernTests.xctestplan; sourceTree = "<group>"; };
 		A6B3A7311AC74E02008E8D4E /* FindCursorCell4.png */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FindCursorCell4.png; path = images/FindCursorCell4.png; sourceTree = "<group>"; };
 		A6B3A7321AC74E02008E8D4E /* FindCursorCell3.png */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FindCursorCell3.png; path = images/FindCursorCell3.png; sourceTree = "<group>"; };
@@ -11568,6 +11570,7 @@
 			children = (
 				A62C57FE2926F67E004793E9 /* iTermLocalePrompt.swift */,
 				A6B152DC29255ED500628436 /* iTermLocaleGuesser.swift */,
+				A6B152E02F2B8A0000628436 /* iTermLocalizationManager.swift */,
 			);
 			path = Locale;
 			sourceTree = "<group>";
@@ -20211,6 +20214,7 @@
 				A68BE9412DE4135F002DD513 /* SVGViewController.swift in Sources */,
 				A6DBC9DA286399C6002911BE /* ContentNavigationShortcut.swift in Sources */,
 				A6B152DD29255ED600628436 /* iTermLocaleGuesser.swift in Sources */,
+				A6B152E12F2B8A0100628436 /* iTermLocalizationManager.swift in Sources */,
 				A6110C3B2526FFCF00D18F61 /* iTermModifyOtherKeysMapper1.m in Sources */,
 				A6DBC05220073CBA00F1466D /* NSResponder+iTerm.m in Sources */,
 				A6AE58962E820FFF00762C1D /* AppSignatureValidator.swift in Sources */,
